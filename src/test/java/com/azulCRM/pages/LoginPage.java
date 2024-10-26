@@ -12,6 +12,8 @@ public class LoginPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
+    //TODO: Add another locator here
+
     @FindBy(name="USER_LOGIN")
     public WebElement userName;
 
